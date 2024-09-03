@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Renova - Clínica de Estética Avançada</title>
+    <!--Bootsttrap-5 css-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!--Fonts do Projeto-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sonsie+One&family=Style+Script&display=swap" rel="stylesheet">
+    <!--style css do Projeto-->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-0" id="header">
+
+        <div class="container">
+            <h1 class="navbar-brand m-0">
+                <a class="fs-3 d-flex align-items-center" href="#">
+                    <img src="img/renova_logo.png" width="50" alt="logo">
+                    <span  class="mx-2">Clínica Renova - Estetica Avançada</span>
+                </a>
+            </h1>
+
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-hamburguer">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-hamburguer">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold me-1">
+                        <a class="nav-link active" href="#carousel">
+                            <i class="bi bi-house-door me-1"></i>
+                            Home</a>
+                    </li>
+                    <li class="nav-item fw-bold me-1">
+                        <a class="nav-link " href="#treatments">
+                            <i class="bi bi-journal-medical me-1"></i>
+                            Tratamentos</a>
+                    </li>
+                    <li class="nav-item fw-bold me-1">
+                        <a class="nav-link" href="#about">
+                            <i class="bi bi-card-list me-1"></i>
+                            Sobre Nós</a>
+                    </li>
+                    <li class="nav-item fw-bold me-1">
+                        <a class="nav-link" href="#contato">
+                            <i class="bi bi-chat-left-text me-1"></i>
+                            Fale Conosco</a>
+                    </li>
+                </ul>
+            </nav>
+
+        </div>
+
+    </header>
+    <!--  HEADER   -->
+
+    <div data-bs-spy="scroll" data-bs-target="#header" data-bs-smoth-scroll="true">
+
+
+        <div class="carousel slide " data-bs-ride="carousel" id="carousel">
+
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="3000">
+                    <img src="./img/slides2/slide1.jpg" class=" d-block w-100 " alt="mulher cara metade">
+                    <div class="carousel-caption d-none d-md-block">
+                        <span>CLÍNICA DE ESTÉTICA RENOVA </span>
+                        <p>CUIDADOS COM O CORPO
+                            É MUITO MAIS DO QUE ESTÉTICA,</p>
+                        <h1>É SAÚDE!</h1>
+                        <button class="btn-agenda">
+                            <a href="#">
+                                AGENDE SEU HORÁRIO!
+                            </a>
+                        </button>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="3000">
+                    <img src="./img/slides2/slide2.jpeg" class="d-block w-100 " alt="mulher preto e branco">
+                    <div class="carousel-caption d-none d-md-block">
+                        <span>CLÍNICA DE ESTÉTICA RENOVA </span>
+                        <p>CUIDADOS COM O CORPO
+                            É MUITO MAIS DO QUE ESTÉTICA,</p>
+                        <h1>É SAÚDE!</h1>
+                        <button class="btn-agenda ">
+                            <a href="#">
+                                AGENDE SEU HORÁRIO!
+                            </a>
+                        </button>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="3000">
+                    <img src="./img/slides2/slide3.jpg" class="d-block w-100 " alt="mulher agua">
+                    <div class="carousel-caption d-none d-md-block">
+                        <span>CLÍNICA DE ESTÉTICA RENOVA </span>
+                        <p>CUIDADOS COM O CORPO
+                            É MUITO MAIS DO QUE ESTÉTICA,</p>
+                        <h1>É SAÚDE!</h1>
+                        <button class="btn-agenda ">
+                            <a href="#">
+                                AGENDE SEU HORÁRIO !
+                            </a>
+                        </button>
+                    </div>
+                </div>
+                <button type="button" class="carousel-control-prev" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button type="button" class="carousel-control-next" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+            </div>
+        </div>
+        <!--  CAROUSEL   -->
+
+        <section class="py-5 " id="cards-trataments">
+            <div class="container mb-5">
+                <div class="row">
+                    <h2 class="section-title text-center fw-bold fs-1">
+                        Nossos <span>Tratamentos</span>
+                    </h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-3 text-center mb-3 ">
+                        <img class="d-block w-100" src="img/trat1-corporal.png" alt="">
+                        <h3 class="section-title fw-bold my-1">Estetica corporais</h3>
+                        <p>Transforme-se: Descubra a Estética Corporal Personalizada!</p>
+                        <button class="btn-agenda w-75 m-auto">
+                            <a href="#">
+                                AGENDE JA!
+                            </a>
+                        </button>
+                    </div>
+                    <div class="col-md-3 text-center mb-3 ">
+                        <img class="d-block w-100" src="img/trat2-facial.png" alt="">
+                        <h3 class="section-title fw-bold mt-1">Estética facial</h3>
+                        <p>Transforme-se: Descubra a Estética facial especializada!</p>
+                        <button class="btn-agenda w-75 m-auto">
+                            <a href="#">
+                                AGENDE JA!
+                            </a>
+                        </button>
+                    </div>
+
+                    <div class="col-md-3 text-center mb-3 ">
+                        <img class="d-block w-100" src="img/trat3-capilar.png" alt="">
+                        <h3 class="section-title fw-bold mt-1">Estética Capilar</h3>
+                        <p>Transforme-se: Tratamentos capilares na medida para você!</p>
+                        <button class="btn-agenda w-75 m-auto">
+                            <a href="#">
+                                AGENDE JA!
+                            </a>
+                        </button>
+                    </div>
+
+                    <div class="col-md-3 text-center mb-3 ">
+                        <img class="d-block w-100" src="img/trat4-cilios.png" alt="">
+                        <h3 class="section-title fw-bold mt-1">Extensão de Cílios</h3>
+                        <p>Transforme-se: Descubra um novo olhar em você!</p>
+                        <button class="btn-agenda w-75 m-auto">
+                            <a href="#">
+                                AGENDE JA!
+                            </a>
+                        </button>
+                    </div>
+
+                </div>
+            </div>
+            <section class="py-5 mb-5 d-flex align-items-center" id="about">
+                <div class="container">
+                    <div class="row mt-5">
+                        <div class="col-md-5">
+                            <img class="d-block w-100 rounded" src="./img/you (1).png" alt="sobre a clinica">
+                        </div>
+                        <div class="col-md-7">
+                            <h2 class="section-title fw-bold fs-1 text-center">
+                                Sobre <span>a Clínica</span>
+                            </h2>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam provident sunt eius
+                                atque quo quos reiciendis possimus soluta pariatur debitis ullam ducimus, asperiores
+                                numquam vitae aliquid voluptatibus ratione minima, expedita maxime cupiditate deserunt,
+                                vel excepturi? Mollitia, tempore ut expedita unde ad soluta distinctio nisi. Ipsum
+                                voluptatum veniam delectus velit! Architecto, cupiditate. Amet nulla deserunt nobis id
+                                atque unde repellendus harum officia. Optio vitae cum, veritatis, provident dolor,
+                                doloremque corporis facere et ex odit nesciunt? Qui aspernatur, quibusdam ad nostrum
+                                explicabo ex eum. Tempore, a similique minima illum distinctio architecto accusantium
+                                nesciunt error quod ratione, ipsum magnam quos placeat nisi tempora doloribus. Natus
+                                sint numquam provident! Vel sequi nobis aspernatur, sapiente labore magnam aperiam quas
+                                dolore cupiditate ea tempora odit temporibus autem officia molestiae nam, voluptate quo
+                                tempore accusamus aliquam ex quidem suscipit? Itaque temporibus voluptate eveniet fugiat
+                                labore omnis dolorem laudantium non autem maiores, sequi consequatur at aliquid harum
+                                tempore aut libero voluptatibus esse provident. Officia itaque enim natus recusandae
+                                amet temporibus, libero dolor voluptates consectetur veniam est error doloremque quos
+                                praesentium ea fuga quisquam quas. Minima eaque tempore sequi assumenda. Ipsam
+                                voluptatem, nihil consectetur cumque non earum architecto alias dicta veniam fugit esse
+                                odio maxime cum at! Nam, sequi?
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--  ABOUT   -->
+
+            <div class="services py-5" id="treatments">
+                <div class="container">
+                    <div class="row mt-5">
+
+                        <h2 class="section-title text-center fw-bold my-5">Tratamentos <span>na medida para você</span>
+                        </h2>
+                    </div>
+                    <div class="row">
+                        <asside class="col-md-12 d-flex d-flex justify-content-center ">
+
+                            <nav class="nav nav-pills nav-servicos">
+                                <button type="button" data-bs-toggle="tab" data-bs-target="#tratamento-corporal"
+                                    class="nav-link fw-bold text-start active mb-4">TRATAMENTOS CORPORAIS</button>
+                                <button type="button" data-bs-toggle="tab" data-bs-target="#tratamento-facial"
+                                    class="nav-link fw-bold text-start mb-4 ">TRATAMENTOS FACIAIS</button>
+                                <button type="button" data-bs-toggle="tab" data-bs-target="#tratamento-capilar"
+                                    class="nav-link fw-bold text-start mb-4 ">TRATAMENTOS CAPILARES</button>
+                                <button type="button" data-bs-toggle="tab" data-bs-target="#extensao-de-cilios"
+                                    class="nav-link fw-bold text-start mb-4">DESING DE CÍLIOS/SOMBRACELHAS</button>
+                            </nav>
+                        </asside>
+                        <div class="row m-auto paginacao">
+                            <div class="tab-content ">
+                                <div class="tab-pane active" id="tratamento-corporal">
+                                    <div class="row">
+                                        <div class="col-md-6 text-center mb-5">
+                                            <img class="d-block w-100" src="img/trat-body/trat-body1.jpg"
+                                                alt="tratamento corporal 1">
+                                            <h5 class="fw-bold">Bioestimulador de colageno</h5>
+                                            <p>
+                                                Bioestimuladores de colágeno são tratamentos estéticos que estimulam a
+                                                produção natural de colágeno, melhorando a firmeza e elasticidade da
+                                                pele, reduzindo rugas e flacidez.
+                                            </p>
+                                            <button class="btn-agenda w-50 m-auto">
+                                                <a href="#">
+                                                    AVALIÇÃO JÁ
+                                                </a>
+                                            </button>
+                                        </div>
+                                        <div class="col-md-6  text-center mb-5">
+                                            <img class="d-block w-100 rounded" src="img/trat-body/trat-body2.jpg"
+                                                alt="tratamento corporal 2">
+                                            <h5 class="fw-bold">Preenchimento de glúteo</h5>
+                                            <p>
+                                                Preenchimento de glúteo é um procedimento estético que aumenta o
+                                                volume e melhora o contorno dos glúteos, utilizando substâncias
+                                                injetáveis como ácido hialurônico.
+                                            </p>
+                                            <button class="btn-agenda w-50 m-auto">
+                                                <a href="#">
+                                                    AVALIÇÃO JÁ
+                                                </a>
+                                            </button>
+                                        </div>
+                                        <div class="col-md-6  text-center mb-5">
+                                            <img class="d-block w-100 rounded" src="img/trat-body/trat-body3.jpg"
+                                                alt="tratamento corporal 3">
+                                            <h5 class="fw-bold">Gordura <span class="fs-5">(Flacidez Umbigo
+                                                    triste)</span></h5>
+                                            <p>
+                                                Umbigo triste é causado pela flacidez abdominal. Tratamentos estéticos
+                                                podem melhorar a aparência, devolvendo firmeza e contorno à região do
+                                                abdômen.
+                                            </p>
+                                            <button class="btn-agenda w-50 m-auto">
+                                                <a href="#">
+                                                    AVALIÇÃO JÁ
+                                                </a>
+                                            </button>
+                                        </div>
+                                        <div class="col-md-6  text-center mb-5">
+                                            <img class="d-block w-100 rounded" src="img/trat-body/trat-body4.jpg"
+                                                alt="tratamento corporal 4">
+                                            <h5 class="fw-bold">Volumismo e Modelagem</h5>
+                                            <p>
+                                                Após 2 sessões, nitidamente vemos melhora no aspecto geral da pele,
+                                                bumbum mais arredondado e empinado!
+                                            </p>
+                                            <button class="btn-agenda w-50 m-auto">
+                                                <a href="#">
+                                                    AVALIÇÃO JÁ
+                                                </a>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--   tratamentos CORPORAIS-->
+                                <div class="tab-pane" id="tratamento-facial">
+                                    <div class="row">
+                                        <div class="col-md-6 text-center mb-5">
+                                            <img class="d-block w-100 rounded" src="img/trat-facial/trat-facial1.jpg"
+                                                alt="trat-facial-1">
+                                            <h5 class="fw-bold">Preenchimento de Mandíbula</h5>
+                                            <p>
+                                                O preenchimento de mandíbula é um procedimento estético que utiliza
+                                                substâncias injetáveis para realçar o contorno facial, proporcionando
+                                                uma aparência mais definida.
+                                            </p>
+                                            <button class="btn-agenda w-50 m-auto">
+                                                <a href="#">
+                                                    AVALIÇÃO JÁ
+                                                </a>
+                                            </button>
+                                        </div>
+                                        <div class="col-md-6 text-center mb-5">
+                                            <img class="d-block w-100 rounded" src="img/trat-facial/trat-facial2.jpg"
+                                                alt="trat-facial-2">
+                                            <h5 class="fw-bold">Lipo de Papada</h5>
+                                            <p>
+                                                A lipo de papada é um procedimento estético que remove gordura
+                                                localizada abaixo do queixo, melhorando o contorno facial e
+                                                rejuvenescendo a aparência.
+                                            </p>
+                                            <button class="btn-agenda w-50 m-auto">
+                                                <a href="#">
+                                                    AVALIÇÃO JÁ
+                                                </a>
+                                            </button>
+                                        </div>
+                                        <div class="col-md-6 text-center mb-5">
+                                            <img class="d-block w-100 rounded" src="img/trat-facial/trat-facial3.jpg"
+                                                alt="trat-facial-3">
+                                            <h5 class="fw-bold">Botox Facial</h5>
+                                            <p>Botox facial reduz rugas de expressão, relaxando músculos específicos.
+                                                Tratamento rápido e eficaz para rejuvenescer a aparência, com resultados
+                                                temporários e naturais.
+                                            </p>
+                                            <button class="btn-agenda w-50 m-auto">
+                                                <a href="#">
+                                                    AVALIÇÃO JÁ
+                                                </a>
+                                            </button>
+                                        </div>
+                                        <div class="col-md-6 text-center mb-5">
+                                            <img class="d-block w-100 rounded" src="img/trat-facial/trat-facial4.jpg"
+                                                alt="trat-facial-4">
+                                            <h5 class="fw-bold">Preenchimento Labial</h5>
+                                            <p>
+                                                Preenchimento labial é um procedimento estético que aumenta o volume dos
+                                                lábios, utilizando substâncias como ácido hialurônico para realçar
+                                                contornos e corrigir assimetrias.
+                                            </p>
+                                            <button class="btn-agenda w-50 m-auto">
+                                                <a href="#">
+                                                    AVALIÇÃO JÁ
+                                                </a>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--   tratamentos FACIAIS-->
+                                <div class="tab-pane" id=" extensao-de-cilios">
+                                    <div class="row">
+                                        <div class="col-md-5 text-center mb-5">
+                                            <img class="d-block w-100" src="img/cardapio/pratos/pizza.jpg" alt="">
+                                            <h5 class="fw-bold">Coca-cola</h5>
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus,
+                                                qui!
+                                            </p>
+                                            <button class="btn-agenda w-50 m-auto">
+                                                <a href="#">
+                                                    AVALIÇÃO JÁ
+                                                </a>
+                                            </button>
+                                        </div>
+                                        <div class="col-md-5 text-center mb-5">
+                                            <img class="d-block w-100" src="img/cardapio/pratos/pizza.jpg" alt="">
+                                            <h5 class="fw-bold">Coca-cola</h5>
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus,
+                                                qui!
+                                            </p>
+                                            <button class="btn-agenda w-50 m-auto">
+                                                <a href="#">
+                                                    AVALIÇÃO JÁ
+                                                </a>
+                                            </button>
+                                        </div>
+                                        <div class="col-md-5 text-center mb-5">
+                                            <img class="d-block w-100" src="img/cardapio/pratos/pizza.jpg" alt="">
+                                            <h5 class="fw-bold">Coca-cola</h5>
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus,
+                                                qui!
+                                            </p>
+                                            <button class="btn-agenda w-50 m-auto">
+                                                <a href="#">
+                                                    AVALIÇÃO JÁ
+                                                </a>
+                                            </button>
+                                        </div>
+                                        <div class="col-md-5 text-center mb-5">
+                                            <img class="d-block w-100" src="img/cardapio/pratos/pizza.jpg" alt="">
+                                            <h5 class="fw-bold">Coca-cola</h5>
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus,
+                                                qui!
+                                            </p>
+                                            <button class="btn-agenda w-100 m-auto">
+                                                <a href="#">
+                                                    AVALIÇÃO JÁ
+                                                </a>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--   extensão de  CÏLIOS-->
+                                <div class="tab-pane" id="tratamento-capilar">
+                                    <div class="row">
+                                        <div class="col-md-6 text-center mb-5">
+                                            <img class="d-block w-100 rounded" src="img/trat-capilar/trat-capilar1.jpg"
+                                                alt="trat-capilar1">
+                                            <h5 class="fw-bold">Terapia com laser de baixa intensidade</h5>
+                                            <p>
+                                                A terapia capilar com laser de baixa intensidade estimula folículos
+                                                dormentes, promovendo crescimento capilar e fortalecimento dos fios
+                                                existentes.
+                                            </p>
+                                            <button class="btn-agenda w-50 m-auto">
+                                                <a href="#">
+                                                    AVALIÇÃO JÁ
+                                                </a>
+                                            </button>
+                                        </div>
+                                        <div class="col-md-6 text-center mb-5">
+                                            <img class="d-block w-100 rounded" src="img/trat-capilar/trat-capilar2.jpg"
+                                                alt="trat-capilar2">
+                                            <h5 class="fw-bold">Microagulhamento capilar</h5>
+                                            <p>
+                                                O microagulhamento capilar é uma técnica que estimula o crescimento de
+                                                cabelo, melhorando a circulação e a saúde do couro cabeludo.
+                                            </p>
+                                            <button class="btn-agenda w-50 m-auto">
+                                                <a href="#">
+                                                    AVALIÇÃO JÁ
+                                                </a>
+                                            </button>
+                                        </div>
+                                        <div class="col-md-6 text-center mb-5">
+                                            <img class="d-block w-100 rounded" src="img/trat-capilar/trat-capilar3.jpg"
+                                                alt="trat-capilar3">
+                                            <h5 class="fw-bold">Mesoterapia capilar</h5>
+                                            <p>
+                                                A mesoterapia capilar é um tratamento que utiliza microinjeções de
+                                                substâncias nutritivas para estimular o crescimento dos cabelos e
+                                                combater a queda.
+                                            </p>
+                                            <button class="btn-agenda w-50 m-auto">
+                                                <a href="#">
+                                                    AVALIÇÃO JÁ
+                                                </a>
+                                            </button>
+                                        </div>
+                                        <div class="col-md-6 text-center mb-5">
+                                            <img class="d-block w-100 rounded" src="img/trat-capilar/trat-capilar4.jpg"
+                                                alt="trat-capilar4">
+                                            <h5 class="fw-bold">Carboxiterapia capilar</h5>
+                                            <p>
+                                                A carboxiterapia capilar é um tratamento que utiliza dióxido de carbono
+                                                para estimular o crescimento dos fios e melhorar a saúde do couro
+                                                cabeludo.
+                                            </p>
+                                            <button class="btn-agenda w-50 m-auto">
+                                                <a href="#">
+                                                    AVALIÇÃO JÁ
+                                                </a>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--   tratamentos CAPILARES-->
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!--  TREATMENTS   -->
+
+        <div class="banner2">
+            <div class="row ">
+                <div class="col-md-6  ">
+                    <img class="d-block w-100" src="img/img_banner_central.webp" height="500" alt="mulher metade visão">
+                </div>
+                <div class="col-md-5  d-flex flex-column justify-content-center align-items-center text-center">
+                    <img src="img/renova_logo.png" alt="">
+                    <h1>Procedimentos que tornam a sua beleza inconfundível</h1>
+                    <p>Beleza e Bem-estar em Duque de Caxias: Clínica de Estética Avançada Renova</p>
+                </div>
+
+            </div>
+        </div>
+        <!--  BANNER2   -->
+        <section class="py-5 mt-5 " id="contato">
+            <div class="container ">
+                <div class="row mb-5">
+                    <h2 class="section-title text-center fs-1 fw-bold">Fale <span>Conosco</span></h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7  ">
+                        <form>
+                            <div class="mb-3">
+                                <label class="form-label" for="name">Seu Nome :</label>
+                                <input class="form-control" required type="text" id="name">
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label" for="email">Seu e-mail :</label>
+                                <input class="form-control" required type="email" id="email">
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label" for="telefone">Seu telefone :</label>
+                                <input class="form-control" required type="tel" id="telefone">
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label" for="mensagem">Sua mensagem :</label>
+                                <textarea class="form-control" id="mensagem"></textarea>
+                            </div>
+                            <button class="btn btn-primary" type="submit">ENVIAR</button>
+                        </form>
+                    </div>
+                    <div class="col-md-5 border border-3">
+                        <div class="row mb-5">
+                            <h3 class="section-title fs-4 fw-bold mb-3">Redes <span>Socias :</span></h3>
+
+                            <ul class="social-links">
+                                <li>
+                                    <a class="fw-bold fs-5" href="#">
+                                        <i class="bi bi-facebook fs-1"></i>
+                                        Nosso Facebook
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="fw-bold fs-5" href="#">
+                                        <i class="bi bi-instagram fs-1 text-danger my-2"></i>
+                                        Nosso Instagram
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="fw-bold fs-5" href="#">
+                                        <i class="bi bi-whatsapp fs-1 text-success"></i>
+                                        Nosso Whatsapp
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row">
+                            <h3 class="section-title fs-4 fw-bold mb-3">Nosso <span>Endereço :</span></h3>
+                            <address class="fw-bold fs-4">
+                                Av: Doutor Manoel Teles n 113 Galeria Alvarenga sala:409, Duque de Caxias - RJ,
+                                25010-080
+                            </address>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </div>
+    <!--  CONTATO   -->
+    <footer>
+        <div class="row">
+            <div class="col-md-12 d-flex justify-content-center align-items-center py-1">
+                
+                <h5>Todos os direitos Reservados - Renova -  Clínica de Estetica Avançada</h5>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
